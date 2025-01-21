@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="./">
+			<img src="./assets/propic.jpg" alt="ProPic" width="40" height="40" class="d-inline-block align-text-center">
+			Gandolfi Luca
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse d-lg-flex" id="navbarNav">
+			<ul class="navbar-nav col-lg justify-content-lg-center">
+				<li class="nav-item item-right">
+					<a class="nav-link" routerLink="./home" routerLinkActive="active">Home</a>
+				</li>
+				<li class="nav-item item-right">
+					<a class="nav-link" routerLink="./cv" routerLinkActive="active">CV</a>
+				</li>
+				<li class="nav-item dropdown item-right">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+						aria-expanded="false">{{ 'NAVBAR.PROFILES' | translate }}</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="https://github.com/gandolphinnn/">GitHub</a></li>
+						<li><a class="dropdown-item" href="https://www.linkedin.com/in/luca-gandolfi-531a93214/">LinkedIn</a></li>
+						<li><a class="dropdown-item" href="https://www.instagram.com/gandolphinnn/">Instagram</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="d-lg-flex justify-content-lg-end item-right">
+				<img [src]="flagPath" width="50px" height="50px" (click)="swapLang()"/>
+			</div>
+		</div>
+	</div>
+</nav>

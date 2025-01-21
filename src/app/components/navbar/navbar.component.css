@@ -1,0 +1,10 @@
+.lang-it {
+	background-image: './assets/flag-it.png';
+}
+.lang-en {
+	background-image: './assets/flag-en.png';
+}
+.item-right {
+	display: flex !important;
+	justify-content: flex-end;
+}
