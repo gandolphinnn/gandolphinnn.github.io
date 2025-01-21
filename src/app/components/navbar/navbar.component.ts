@@ -15,7 +15,7 @@ export class NavbarComponent {
 	}
 
 	public get flagPath() {
-		return `assets/flag-${this.inactiveLang}.png`;
+		return `assets/images/flag-${this.inactiveLang}.png`;
 	}
 
 	constructor(

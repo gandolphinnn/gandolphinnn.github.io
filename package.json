@@ -7,7 +7,8 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"build": "ng build --base-href \"https://gandolphinnn.github.io/landing/\"",
-		"publish": "npx angular-cli-ghpages --dir=dist/landing"
+		"publish": "npx angular-cli-ghpages --dir=dist/landing",
+		"nvm": "nvm use 22.1.0"
 	},
 	"private": true,
 	"dependencies": {

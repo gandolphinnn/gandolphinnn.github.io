@@ -1,0 +1,16 @@
+{
+	"NAVBAR": {
+		"NAME": "Gandolfi Luca",
+		"HOME": "Home",
+		"CV": "Resume",
+		"PROFILES": "Profiles"
+	},
+	"HOME": {
+		"TITLE": "Home",
+		"SUMMARY": "Im a software developer passionate about technology and innovation. I like to work in team and I'm always looking for new challenges."
+	},
+	"CV": {
+		"TITLE": "Resume",
+		"SUMMARY": "Here you can find my resume."
+	}
+}
